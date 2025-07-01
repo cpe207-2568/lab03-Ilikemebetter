@@ -15,14 +15,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <title>Gallery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
-
-    <title>My Portfolio</title>
   </head>
   <body>
     <div>
@@ -42,59 +41,52 @@
       </ul>
     </div>
 
-    <div
-      class="d-flex justify-content-center align-items-center mx-auto gap-3 mt-5"
-      style="max-width: 700px"
-    >
-      <div class="card mb-2">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="./image/me.jpg" class="img-fluid" alt=" " />
-          </div>
-          <div class="col-md-8 d-flex align-items-center">
-            <div class="card-body">
-              <h5 class="card-title">Radissara Thananukul</h5>
-              <p class="card-text">full-time: explorer</p>
-              <p class="card-text">part-time: computer engineering student(still trying)</p>
-            </div>
-          </div>
+<div class="container my-5">
+  <h2 class="text-center mb-4">My Gallery</h2>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card h-100 gallery-card">
+        <img src="image/citie.png" class="card-img-top gallery-card-img" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Meet my dog</h5>
+          <p class="card-text">My Pookie Pookie</p>
         </div>
       </div>
     </div>
 
-   <div class="container my-5">
-  <h2 class="text-center mb-4">Skills</h2>
-    </div>
-
-
-    <div class="card-container">
-      <div class="skill-card">
-        <img src="image/sushi.png" class="d-none d-sm-block skill-img" />
-        <div class="skill-text">
-          <p class="fw-semibold fs-5">good eater</p>
-          <span class="text-muted"> Sushi salmon rolls is my fav. </span>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <img src="image/sleep.png" class="d-none d-sm-block skill-img" />
-        <div class="skill-text">
-          <p class="fw-semibold fs-5">day-dreamer</p>
-          <span class="text-muted">
-            I dream big, even during the day.
-          </span>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <img src="image/rb.png" class="d-none d-sm-block skill-img" />
-        <div class="skill-text">
-          <p class="fw-semibold fs-5">procrastination specialist</p>
-          <span class="text-muted">
-            Why start early when panic works so well?
-          </span>
+    <div class="col">
+      <div class="card h-100 gallery-card">
+        <img src="image/kobe.png" class="card-img-top gallery-card-img" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Kobe King</h5>
+          <p class="card-text">fav meal with fav people</p>
         </div>
       </div>
     </div>
+
+    <div class="col">
+      <div class="card h-100 gallery-card">
+        <img src="image/cafe.png" class="card-img-top gallery-card-img" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Cafe lover</h5>
+          <p class="card-text">Camera eats first!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 gallery-card">
+        <img src="image/song.png" class="card-img-top gallery-card-img" alt="fav artist">
+        <div class="card-body">
+          <h5 class="card-title">Laufey</h5>
+          <p class="card-text">love is like a jazz, its the best when you improvise.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   </body>
 </html>
